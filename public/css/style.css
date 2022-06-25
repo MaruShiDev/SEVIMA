@@ -18,7 +18,7 @@
   --search-bar: #f2f2f2;
   --search-text: #010718;
   --text-color: #fff;
-  --container-text: #000;
+  --container-text: #002e6d;
 }
 
 body {
@@ -242,8 +242,12 @@ body.dark .search-field i {
 
 .container {
   margin-left: 50px;
-  font-size: 12px;
+  font-size: 20px;
   margin-top: 30px;
+}
+
+.carousel {
+  margin-top: 100px;
 }
 
 @media (max-width: 790px) {
@@ -294,5 +298,12 @@ body.dark .search-field i {
   .nav-links li a {
     display: block;
     margin-top: 20px;
+  }
+
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
   }
 }
