@@ -4,40 +4,40 @@
 
 <div class="container">
     <div class="row">
-        <div class="col">
-            <div class="opener">
-                <center>
-                    <h1>Just For You</h1>
-                </center>
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1">BLOKK</li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/img/82604.jpg" class="d-block" style="width:100%; height:300px;" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
+        <div class="opener" style="margin-bottom: 100px;">
+            <center>
+                <h1 style="font-weight:bold;">Just For You</h1>
+            </center>
+        </div>
+        <div class="col" style="height: 100px; width:50px;">
+            <div class=" card">
+                <div class="card-body">
+                    <h5 class=" card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top:100px;">
+            <center>
+                <h2>Solusi Belajar Online</h2>
+                <p style="margin-top:100px;">Kelas Pintar adalah sebuah solusi belajar online dengan metode pintar,
+                    personal dan terintegrasi
+                    yang didesain untuk meningkatkan minat belajar dan pemahaman siswa terhadap materi pelajaran
+                    guna mendapatkan nilai akademis yang lebih baik.</p>
+            </center>
+        </div>
     </div>
+</div>
 </div>
 
 <?= $this->endSection(); ?>

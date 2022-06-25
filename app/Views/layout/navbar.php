@@ -11,8 +11,8 @@
 
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/pages/about">About</a></li>
+                <li><a href="/pages/contact">Contact</a></li>
                 <li><a href="/courses">Courses</a></li>
                 <li><a href="register.php">Sign Up</a></li>
             </ul>

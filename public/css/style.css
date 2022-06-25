@@ -242,7 +242,7 @@ body.dark .search-field i {
 
 .container {
   margin-left: 50px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 30px;
 }
 
@@ -300,10 +300,9 @@ body.dark .search-field i {
     margin-top: 20px;
   }
 
-  .slide-content {
-    margin: 0 10px;
-  }
-  .swiper-navBtn {
-    display: none;
+  .container {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 30px;
   }
 }
