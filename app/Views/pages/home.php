@@ -18,8 +18,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/img/82604.jpg" class="d-block" style="width:100%; height:300px;opacity:0.5;"
-                            alt="...">
+                        <img src="/img/82604.jpg" class="d-block" style="width:100%; height:300px;" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="..." class="d-block w-100" alt="...">
