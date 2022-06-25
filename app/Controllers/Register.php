@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\UsersModel;
+use App\Models\LoginModel;
 
 class Register extends BaseController
 {
@@ -15,7 +15,7 @@ class Register extends BaseController
     {
         if (!$this->validate([
             'username' => [
-                'rules' => 'required|min_length[4]|max_length[20]|is_unique[users.username]',
+                'rules' => 'required|min_length[4]|max_length[20]|is_unique[login.username]',
                 'errors' => [
                     'required' => '{field} Harus diisi',
                     'min_length' => '{field} Minimal 4 Karakter',
@@ -49,8 +49,8 @@ class Register extends BaseController
             session()->setFlashdata('error', $this->validator->listErrors());
             return redirect()->back()->withInput();
         }
-        $users = new UsersModel();
-        $users->insert([
+        $login = new LoginModel();
+        $login->insert([
             'username' => $this->request->getVar('username'),
             'password' => password_hash($this->request->getVar('password'), PASSWORD_BCRYPT),
             'name' => $this->request->getVar('name')
